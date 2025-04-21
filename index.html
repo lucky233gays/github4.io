@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="金沙国际。">
+    <meta name="keywords" content="金沙国际">
+    <title>金沙国际</title>
+    <style>
+        /* 全局样式，设置字体、文本居中，去除默认的外边距和内边距，并设置背景图 */
+
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-image: url('/tu/1.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        /* 左上角小图标容器样式 */
+
+        .header-icons {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* 让图标水平居中对齐 */
+        }
+
+        .header-icons a {
+            margin: 10px 0;
+            text-decoration: none;
+        }
+
+        .header-icons img {
+            width: 200px;
+            height: auto;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .header-icons img:hover {
+            opacity: 0.7;
+            transform: scale(1.1);
+        }
+
+        /* 中间图片容器样式 */
+
+        .image-container {
+            margin-top: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            display: inline-block;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+            max-height: 70vh;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .image-container img:hover {
+            opacity: 0.8;
+            transform: scale(1.02);
+        }
+
+        /* 响应式设计 - 手机端 */
+
+        @media (max-width: 600px) {
+            body {
+                background-image: url('/tu/1.jpg');
+                /* 确保背景图完全覆盖背景区域 */
+                background-size: cover;
+                /* 让背景图在水平和垂直方向都居中 */
+                background-position: center center;
+            }
+            .header-icons img {
+                width: 100px;
+            }
+            .image-container {
+                padding: 10px;
+            }
+        }
+
+        /* 页脚样式 */
+
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: rgba(244, 244, 244, 0.8);
+        }
+
+        /* 悬浮按钮样式 */
+
+        .floating-button {
+            position: fixed;
+            bottom: 80px;
+            /* 增大 bottom 值，让悬浮按钮往上移动，可按需调整 */
+            right: 20px;
+            background-color: #007BFF;
+            color: white;
+            padding: 25px 30px;
+            border-radius: 50%;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        .floating-button:hover {
+            background-color: #0056b3;
+            transform: scale(1.1);
+        }
+
+        /* 让左上角第二个图标垂直对齐 */
+
+        .header-icons a:nth-child(2) {
+            margin-left: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 左上角小图标 -->
+    <div class="header-icons">
+        <a href="http://download.cloudfdele.xyz:8080/ttwio14.html">
+            <img src="/tu/4.jpg" alt="图标1">
+        </a>
+        <a href="https://www.bv123.app">
+            <img src="/tu/2.jpg" alt="图标2">
+        </a>
+        <a href="https://www.mj98.vip/">
+            <img src="/tu/3.jpg" alt="图标3">
+        </a>
+    </div>
+
+
+</body>
+
+</html>
